@@ -1,3 +1,7 @@
 ユーザー名：zeropenugin
 メールアドレス:arato1060@outlook.jp
 パスワード:20dj70an88go
+
+pythonanywhere:
+ユーザー名:zero-penguin(=github !=git)
+パスワード: Tap1060eaR
