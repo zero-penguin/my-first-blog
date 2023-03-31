@@ -5,3 +5,4 @@
 pythonanywhere:
 ユーザー名:zero-penguin(=github !=git)
 パスワード: Tap1060eaR
+URL：https://www.pythonanywhere.com/user/zeropenguin/
