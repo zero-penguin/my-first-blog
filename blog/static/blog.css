@@ -1,0 +1,10 @@
+/* 文字の装飾 */
+h1 a, h2 a {
+  color: #C25100;
+  font-family: 'Lobster';
+}
+
+/* 余白の追加 */
+body {
+  padding-left: 15px;
+}
