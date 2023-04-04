@@ -6,3 +6,9 @@ pythonanywhere:
 ユーザー名:zero-penguin(=github !=git)
 パスワード: Tap1060eaR
 URL：https://www.pythonanywhere.com/user/zeropenguin/
+
+gitからアプリを自動的に構成するためのヘルパー立ち上げ
+$ pa_autoconfigure_django.py --python=3.6 https://github.com/zero-penguin/my-first-blog.git
+
+でも大体一回立ち上げたら次回以降は、
+pa_autoconfigure_django.py https://github.com/zero-penguin/my-first-blog.git --nuke
