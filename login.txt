@@ -10,9 +10,12 @@ URL：https://www.pythonanywhere.com/user/zeropenguin/
 gitからアプリを自動的に構成するためのヘルパー立ち上げ
 $ pa_autoconfigure_django.py --python=3.6 https://github.com/zero-penguin/my-first-blog.git
 
+
+
 でも大体一回立ち上げたら次回以降は、
-pa_autoconfigure_django.py https://github.com/zero-penguin/my-first-blog.git --nuke
+$ workon https://www.pythonanywhere.com/user/zeropenguin/.pythonanywhere.com
 
 とりま、pythonanywhereが切れたら、
 https://tutorial.djangogirls.org/ja/deploy/
 を参照
+
