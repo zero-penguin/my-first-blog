@@ -11,5 +11,5 @@ def post_list(request):
 def post_detail(request, pk):
     #page not foundに対して
     post = get_object_or_404(Post, pk=pk)
-    #post_detailのURLをプロパティとしてHTMLファイルとして返す。
+    #post_detail.htmlのテンプレートを返す。。
     return render(request, 'blog/post_detail.html', {'post': post})
