@@ -1,0 +1,36 @@
+０，webサーバーを起動できる。
+
+manage.py
+
+1,djangoモデル（MVCorMTVモデル）が簡単に作成できる。
+
+ビュー（コントローラー）：view.py(urls.py)　→　テンプレート（ビュー）：　templete/blog(view.py) →　モデル：models.py
+
+2,webサーバーソフトウェアのデータサーバーソフトウェアに、SQLiteがデフォルトで設定されている。
+
+setting.py　７７行目
+
+３，管理画面がデフォルトで設定されている。
+
+admin.py
+
+４，クライアントのリクエストの幅をurls.pyで拡張できる。
+最初はadmin.pyだけだが、models.pyで作ったpost_newやpost_editをコントローラーに加えると、データベースの操作がフロントサイドで可能になる。
+
+urls.py　１９行目
+
+５，（中枢）view.pyでurls.pyで設定された幅のリクエストを受け、model.pyで設定された関数を用いてtemplete/bolgのテンプレートを組み立てる。
+
+urls.py models.py view.py　post_detail.html
+
+６，Django ORM　「クエリセット」（データベース）を操作できる。
+Django　ORM→pythonとデータベース間の相互変換を自動化するツール
+
+commandprompt　python manage.py shell
+
+７，セキュリティを追加することが出来る。
+
+
+
+
+ 
