@@ -30,6 +30,11 @@ commandprompt　python manage.py shell
 
 ７，セキュリティを追加することが出来る。
 
+djnagogirls外の範囲
+
+
+全体的にCRUDアプリ作成に向いている事が分かる。
+
 
 
 
